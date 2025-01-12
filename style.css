@@ -7,28 +7,28 @@ body{
     margin: 30vh;
 }
 .calc{
-    border: 2px red solid;
-    background: linear-gradient(20deg,rgb(209, 223, 141),rgb(93, 185, 137));
+    border: 2px rgb(0, 0, 0) solid;
+   background-color: gray;
     margin-top: -450px;
     margin-left: 150px;
 }
 input{
-    border: 1px blue dashed ;
+    border: 1px rgb(0, 0, 0) dashed ;
     margin: 5px;
     width: 50vh;
     height: 5ch;
-    background-color: rgb(22, 154, 72);
+    background-color: lightblue;
 }
 select{
     border: 1px dashed gray;
     width: 50vh;
     height: 5ch;
     margin: 5px; 
-    background-color: rgb(77, 79, 211);
+    background-color: lightblue;
 }
 button{
-    background-color: rgb(202, 190, 62);
-    color: rgb(18, 142, 224);
+    background-color: rgb(98, 69, 69);
+    color: lightblue;
     margin: 2px;
     width: 25vh;
     height: 5vh;
@@ -38,8 +38,8 @@ button{
   font-size: 25px;
 }
 button:hover{
-    background-color: rgb(161, 103, 103);
-    color: rgb(255, 111, 0);
+    background-color: rgb(6, 5, 5);
+    color: rgb(142, 138, 226);
     cursor: pointer;
 }
 .result{
